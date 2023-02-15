@@ -4,7 +4,7 @@
   <string id="10">Day-Care Man</string>
   <string id="11">Day-Care Lady</string>
 
-
+  <string id="32">You were shaking your phone for 3 seconds, do you want to report an error?</string>
   <string id="33">PokeMMO has crashed.\n\nPlease restart the application to continue.</string>
   <string id="34">PokeMMO requires newer functionality than your operating system provides.\nYou must upgrade your operating system to play.</string>
   <string id="35">The default theme failed to load.\n\nDo you want to submit an error report?</string>
@@ -241,6 +241,7 @@
   <string id="1091">Decompressing...</string>
   <string id="1092">Could not find a fitting rom in the archive {00} based on the file extension.</string>
   <string id="1093">The archive {00} is password protected.</string>
+  <string id="1094">Couldn't get access to the file {00}, because it is probably locked by an antivirus software.</string>
 
   <!-- HUD -->
   <string id="1100">Bag</string>
@@ -529,6 +530,8 @@
   <string id="1385">Theme Color 2</string>
   <string id="1386">Theme Titlebar Color</string>
   <string id="1387">Enable Discord Rich Presence:</string>
+  <string id="1388">Reset to default</string>
+  <string id="1389">{00} has been reset to default.</string>
 
   <string id="1390">Chat Language Setup</string>
   <string id="1391">Unselect All</string>
@@ -582,7 +585,7 @@
   <string id="1446">Can only be used with {STRING_0}\nfrom these evolution lines:</string>
   <string id="1447">Account-bound</string>
   <string id="1448">This item is account-bound.\nIt can only be traded to characters\non the same account.</string>
-  <string id="1449">This item is event-bound.\nIt will become untradeable after its event is over.</string>
+  <string id="1449">This item is event-bound.\nIt will become untradeable after this seasonal event is over, and will be deleted at a later date.</string>
 
   <string id="1450">Unknown Item</string>
   <string id="1451">Your client does not currently support\nthis item.\nPlease verify you have all required roms.</string>
@@ -594,6 +597,9 @@
   <string id="1457">Moderately reduces happiness</string>
   <string id="1458">Greatly reduces happiness</string>
   <string id="1459">Greatly reduces happiness of {STRING_0} which don't like {00} berries</string>
+
+  <string id="1460">Event Bag</string>
+  <string id="1461">This item is event-bound.\nIt will be deleted after this seasonal event is over.</string>
 
   <!-- CHAT -->
   <string id="1500">Normal</string>
@@ -786,6 +792,7 @@
   <string id="1777">Region</string>
   <string id="1778">Location</string>
   <string id="1779">Levels</string>
+
   <string id="1781">Rarity</string>
   <string id="1782">Common</string>
   <string id="1783">Uncommon</string>
@@ -795,12 +802,11 @@
   <string id="1787">Rocks</string>
   <string id="1788">Fishing</string>
   <string id="1789">Dark Grass</string>
-
   <string id="1790">Swarm</string>
   <string id="1791">No wild locations found.</string>
   <string id="1792">Cave</string>
   <string id="1793">Inside</string>
-
+  <string id="1794">Lure</string>
   <string id="1795">Special</string>
   <string id="1796">Shadow</string>
   <string id="1797">Dust Cloud</string>
@@ -949,7 +955,7 @@
   <string id="1947">You do not have enough Battle Points.</string>
   <!-- ITEM EXCHANGE -->
   <string id="1948">Required Items:</string>
-  <string id="1949">You do not have all of the required items.</string>
+  <string id="1949">You do not have all the required items.</string>
   <!-- TRADE -->
   <string id="1950">Trade</string>
   <string id="1951">Lock List</string>
@@ -1005,14 +1011,14 @@
   <string id="2051">PokeMMO is currently experiencing extremely high server load.\nWe apologize for any wait to login.</string>
 
   <!-- Ban disambiguation messages -->
-  <string id="2060">This account has been banned due to client tampering.\n\n\nContinued use of hack utilities, virtual machines, and other client tamperers may result in a permanent ban against all accounts owned by a player.</string>
-  <string id="2061">This account has been banned due to detected prohibited software.\n\n\nUsing utilities which automate gameplay (macros, bots, scripts), virtual machines, or client tampering tools will result in a permanent ban against all accounts owned by a player and may occur any time after detection.</string>
-  <string id="2062">This account has been banned due to real money trading or for trading assets outside of the game.\n\n\nPlayers are not allowed to buy or sell items, game accounts, or character progress ("powerleveling") for any asset outside of the game, including real money or any digital goods not a part of PokeMMO.\n\n\nPlayers who purchase items with RMT may have all accounts banned at any time after detection.</string>
+  <string id="2060">This account has been banned due to client tampering.\n\nContinued use of hack utilities, virtual machines, and other client tamperers may result in a permanent ban against all accounts owned by a player.</string>
+  <string id="2061">This account has been banned due to detected prohibited software.\n\nUsing utilities which automate gameplay (macros, bots, scripts), virtual machines, or client tampering tools will result in a permanent ban against all accounts owned by a player and may occur any time after detection.</string>
+  <string id="2062">This account has been banned due to real money trading or for trading assets outside the game.\n\nPlayers are not allowed to buy or sell items, game accounts, or character progress ("powerleveling") for any asset outside the game, including real money or any digital goods not a part of PokeMMO.\n\nPlayers who purchase items with RMT may have all accounts banned at any time after detection.</string>
   <string id="2063">This account has been banned due to false accusations against other players.</string>
-  <string id="2064">This account has been banned due to persistent chat rule violations.\n\n\nContinued violations may result in a permanent account ban.</string>
-  <string id="2065">This account has been banned due to account or character trading.\n\n\nSelling accounts or character names to other players is prohibited and may result in a permanent ban at any time after detection.</string>
-  <string id="2066">This account has been banned due to sexual harassment or other predatory behavior.\n\n\nPokeMMO enforces a safe environment for players of all ages.\n\n\nUnsolicited sexual communication in public or private chat channels is not tolerated.</string>
-  <string id="2067">This account has been banned due to harassing or bullying other players.\n\n\nPokeMMO enforces a safe environment for players of all ages.\n\n\nPersistent harassment of other players in public or private chat channels is not tolerated.</string>
+  <string id="2064">This account has been banned due to persistent chat rule violations.\n\nContinued violations may result in a permanent account ban.</string>
+  <string id="2065">This account has been banned due to account or character trading.\n\nSelling accounts or character names to other players is prohibited and may result in a permanent ban at any time after detection.</string>
+  <string id="2066">This account has been banned due to sexual harassment or other predatory behavior.\n\nPokeMMO enforces a safe environment for players of all ages.\n\nUnsolicited sexual communication in public or private chat channels is not tolerated.</string>
+  <string id="2067">This account has been banned due to harassing or bullying other players.\n\nPokeMMO enforces a safe environment for players of all ages.\n\nPersistent harassment of other players in public or private chat channels is not tolerated.</string>
 
   <!-- CHARACTER CREATE ERROR MESSAGES -->
   <string id="2100">Your account is currently full. You cannot create any new characters.</string>
@@ -1095,6 +1101,7 @@
   <!-- LINK RELATED -->
   <string id="2500">Kick from Link</string>
   <string id="2501">Leave Link</string>
+  <string id="2502">Nobody heard you..</string>
 
   <!-- BREEDING DIALOG -->
   <string id="2521">It will not have a Hidden Ability because the main parent doesn't have it.</string>
@@ -1263,7 +1270,7 @@
   <string id="2882">Bicycle</string>
 
   <string id="2890">This decision is final and cannot be undone. Are you sure you picked all the colors and addons you want?</string>
-  <string id="2891">Are you sure you want to choose this as your new apperance?\nClicking on 'Yes' will save your new look and consume the item.</string>
+  <string id="2891">Are you sure you want to choose this as your new appearance?\nClicking on 'Yes' will save your new look and consume the item.</string>
 
   <!-- SUPPORT REQUEST -->
   <string id="2900">Support Request</string>
@@ -1403,15 +1410,13 @@
   <string id="3521">{00}% of damage is recoiled back to the attacker</string>
   <string id="3522">{00}% of damage is absorbed by the attacker</string>
   <string id="3523">Cures all status ailments</string>
-
+  <string id="3524">If foe is Minimized, attacks with 2x Power and won't miss</string>
   <string id="3525">Does 2x damage to {STRING_0} in the semi-invulnerable turn of {STRING_110091}</string>
   <string id="3526">Does 2x damage to {STRING_0} in the semi-invulnerable turn of {STRING_110019} and {STRING_110340}</string>
   <string id="3527">Does 2x damage to {STRING_0} in the semi-invulnerable turn of {STRING_110291}</string>
-
   <string id="3528">Can hit {STRING_0} in the semi-invulnerable turn of {STRING_110091}</string>
   <string id="3529">Can hit {STRING_0} in the semi-invulnerable turn of {STRING_110019} and {STRING_110340}</string>
   <string id="3530">Can hit {STRING_0} in the semi-invulnerable turn of {STRING_110091}, {STRING_110019}, {STRING_110340}, and {STRING_110291}</string>
-
   <string id="3531">Prevents Freezing, boosts Fire-type moves by half, and reduces Water-type moves' effectiveness by half while active</string>
   <string id="3532">Boosts Water-type moves by half, and reduces Fire-type moves' effectiveness by half while active</string>
   <string id="3533">Boosts the SP.DEFENSE of Rock-type {STRING_0} by half while active</string>
@@ -1424,6 +1429,7 @@
   <string id="3540">Its success rate is halved when used consecutively</string>
   <string id="3541">Thaws the user if they're Frozen</string>
   <string id="3542">Weather lasts for 5 turns, and overrides any previous weather</string>
+  <string id="3543">{00}% of the attacker's Max HP is recoiled after attacking</string>
 
   <string id="3545">{00}% chance to raise the attacker's {01} by {02} stage(s)</string>
   <string id="3546">{00}% chance to raise the target's {01} by {02} stage(s)</string>
@@ -1580,6 +1586,8 @@
   <string id="5404">West</string>
 
   <!-- MATCHMAKING RELATED -->
+  <string id="5493">Sorry, matchmaking is unavailable.\nPlease signup again using a different method.</string>
+  <string id="5494">Enter with Link Members</string>
   <string id="5495">Preseason</string>
   <string id="5496">Season #{00}</string>
   <string id="5497">{01}s</string>
@@ -1710,6 +1718,7 @@
   <string id="5635">You can't sign up with a storyline team while your current region is incomplete. Please choose a different party.</string>
   <string id="5636">Please select exactly {00} EVs.</string>
   <string id="5637">This has been temporarily banned from this tier because its Hidden Ability was recently released.\nIt may be permanently banned from this tier in the future.</string>
+  <string id="5638">Please select exactly 1 IV adjustment.</string>
 
   <string id="5645">Seasonal Rewards:</string>
   <string id="5646">Matchmaking Rewards:</string>
@@ -1843,7 +1852,7 @@
 
   <string id="5820">The requested mail was not found.</string>
   <string id="5821">You cannot delete mail that still has attachments.\nPlease retrieve them and try again.</string>
-  <string id="5822">An error occured adding attachments.\nSome attachments were not added.</string>
+  <string id="5822">An error occurred adding attachments.\nSome attachments were not added.</string>
   <string id="5823">Your party is currently full.</string>
   <string id="5824">Your PC is currently full.</string>
 
@@ -1955,6 +1964,7 @@
   <string id="6009">{00} was used on\n{01}.</string>
   <string id="6010">You have obtained {00} {01}(s) from the {02}.</string>
   <string id="6011">{00} has worn off.</string>
+  <string id="6012">{00} has worn off.\nUse another?</string>
   <string id="6013">{00} is currently busy and cannot accept your request.</string>
   <string id="6014">Player {00} could not be found.</string>
   <string id="6015">Requested player could not be found.</string>
@@ -2027,9 +2037,9 @@
   <string id="6080">Some actions have been restricted for {00}\nbecause you fainted when disconnecting.</string>
   <string id="6081">None of your {STRING_0} know {00}!</string>
 
-  <string id="6082">A member of your link has failed the mission\ndue to whiting out.</string>
-  <string id="6083">You were not eligible to receive\nrewards for this mission.</string>
-  <string id="6084">Your team did not score highly\nenough to receive rewards for this mission.</string>
+  <string id="6082">A member of your link has failed the mission due to whiting out.</string>
+  <string id="6083">You were not eligible to receive rewards for this mission.</string>
+  <string id="6084">Your team did not score highly enough to receive rewards for this mission.</string>
   <string id="6085">Your team has {00} lives remaining.</string>
   <string id="6086">{00} picked up {01} {02}(s)!\n\n{00} put the items in their bag.</string>
 
@@ -2086,8 +2096,33 @@
   <string id="6604">Mooncake Festival</string>
   <string id="6605">PokeMMO's 10th Anniversary</string>
   <string id="6606">Anniversary</string>
+  
+  <!-- EVENT INSTANCE MATCH -->
+  <string id="6700">You've successfully registered to instance matching.</string>
+  <string id="6701">You've been signed out of the queue.</string>
 
-  <!-- HIDOUT -->
+  <string id="6703">You've been temporarily suspended from using this function.</string>
+  <string id="6704">Your link member has been temporarily suspended from using this function.</string>
+  <string id="6705">Only the link leader can sign to the queue.</string>
+  <string id="6706">You're already registered to the queue.</string>
+  <string id="6707">Could not signup for the queue because you're currently busy.\nTry again later.</string>
+  <string id="6708">You've been put back to queue because someone was not ready.</string>
+  <string id="6709">You've been kicked out of queue because you failed ready check.</string>
+  <string id="6710">You've found a match.</string>
+
+  <string id="6720">You are temporarily suspended from using instance matching due to repeatedly failing ready check.</string>
+  <string id="6721">No match found in this round.</string>
+  <string id="6722">You or your link member were busy during this round.</string>
+  
+
+  <string id="6730">Would you like to cancel instance search?</string>
+  <string id="6731">Matching for {00} instance</string>
+  <string id="6732">Instance Ready Check</string>
+  <string id="6733">Instance Matching Signup</string>
+
+  <string id="6740">Your link doesn't have enough members to\njoin this instance. Would you like to use\nlink finder with your members?</string>
+  
+  <!-- HIDEOUT -->
   <string id="6750">Create {STRING_6} here</string>
   <string id="6751">Enter {00}'s {STRING_6}</string>
   <string id="6752">Cannot enter {00}'s {STRING_6}.\nThey may no longer be online, or you no longer have permission.</string>
@@ -2118,8 +2153,8 @@
   <string id="6902">{00} has captured a wild {01} near {02} on channel {03}!\n{00} will be forced to accept battles to maintain ownership of the {01}!</string>
   <string id="6903">{00} has defeated {01} and has taken ownership of the wild {02} near {03} on channel {04}!\n{00} will be forced to accept battles to maintain ownership of the {02}!</string>
   <string id="6904">{00} has defeated the challenger {01} and has maintained\nownership of the wild {02} near {03} on channel {04}!</string>
-  <string id="6905">The wild {00} has grown bored of\nits current owner and has run away.\nIt may now be found in the wild.</string>
-  <string id="6906">The wild {00} forces itself to walk outside of its {STRING_245004}.</string> <!-- Follower change attempt message -->
+  <string id="6905">The wild {00} has grown bored with\nits current owner and has run away.\nIt may now be found in the wild.</string>
+  <string id="6906">The wild {00} forces itself to walk outside its {STRING_245004}.</string> <!-- Follower change attempt message -->
   <string id="6907">A {STRING_245001} cannot be used on\nthis wild {STRING_0}.</string>
   <string id="6908">{00} prevents you from doing that.</string>
   <string id="6909">{00} has been abandoned and is waiting for its next trainer near {01}.</string>
@@ -2487,6 +2522,8 @@
   <string id="10829">Shiny {STRING_250000} Friends</string>
   <string id="10830">Menacing Spirit</string>
   <string id="10831">Shiny Menacing Spirit</string>
+  <string id="10832">Xmas Decorations</string>
+  <string id="10833">Spirit of Spring</string>
 
   <string id="10996">Secret Shiny</string>
   <string id="10997">Random Particle Effect</string>
@@ -2525,6 +2562,8 @@
   <string id="11029">Shiny {STRING_250000} Friends Particle Effect</string>
   <string id="11030">Menacing Spirit Particle Effect</string>
   <string id="11031">Shiny Menacing Spirit Particle Effect</string>
+  <string id="11032">Xmas Decorations Particle Effect</string>
+  <string id="11033">Spirit of Spring Particle Effect</string>
 
   <string id="11199">Secret Shiny Particle Effect</string>
 
@@ -2560,6 +2599,8 @@
   <string id="11229">The Classic Trio</string>
   <string id="11230">An intimidating foe.</string>
   <string id="11231">An intimidating foe.</string>
+  <string id="11232">A festive occasion.</string>
+  <string id="11233">Spring's blessings</string>
 
   <string id="11399">An extremely rare shiny {STRING_0}.</string>
 
@@ -2594,6 +2635,8 @@
   <string id="11429">{STRING_11229}{STRING_10999}</string>
   <string id="11430">{STRING_11230}{STRING_10999}</string>
   <string id="11431">{STRING_11231}{STRING_10999}</string>
+  <string id="11432">{STRING_11232}{STRING_10999}</string>
+  <string id="11433">{STRING_11233}{STRING_10999}</string>
 
   <!-- Custom Ribbons -->
   <string id="11600">Tournament Winner Ribbon</string>
@@ -2607,7 +2650,7 @@
   <string id="11702">Achieved victory over 250 times.</string>
   <string id="11703">Winner of Season {00}'s Finale Tournament</string>
 
-  <!-- Hoenn Battle Frontier dialogues -->
+  <!-- Battle Frontier dialogues -->
   <string id="12000">Previous {00}</string>
   <string id="12001">Current {00}</string>
   <string id="12002">Record {00}</string>
@@ -2630,7 +2673,7 @@
   <string id="99998">The tag you have selected can be used!</string>
   <string id="99999">The name you have selected can be used!</string>
   <string id="100000">Training Link</string>
-  <string id="100001">When held by a {STRING_0}, it prevents the holder from gaining any EXP, but doubles EV gain.\n\n\nThe holder may gain EVs even if they don't participate in the battle.</string>
+  <string id="100001">When held by a {STRING_0}, it prevents the holder from gaining any EXP, but doubles EV gain.\n\nThe holder may gain EVs even if they don't participate in the battle.</string>
   <string id="100002">Name Change Contract</string>
   <string id="100003">An item which can be used to change your character's name.\n\nCan only be used once.</string>
   <string id="100004">Are you sure you want to use the Name Change Contract\nto change your character's name to {00}?</string>
@@ -2822,10 +2865,10 @@
   <string id="101146">A fancy looking present which contains an unknown reward.\n\nMay contain exclusive items for Xmas 2020.\nUse to open.</string>
   <string id="101147">Elfbot Mastery Device (Red)</string>
   <string id="101148">Elfbot Mastery Device (Blue)</string>
-  <string id="101149">Elfbot Mastery Device (Gold)</string>
+  <string id="101149">ElfUp™ Battle Mastery DriveⓇ (v2.1.1)</string>
   <string id="101150">Upgrades your Elfbot's Attack, Sp.Attack, and Speed IVs by +4.\nConsumed upon use.</string>
   <string id="101151">Upgrades your Elfbot's HP, Defense, and Sp.Defense IVs by +4.\nConsumed upon use.</string>
-  <string id="101152">Upgrades all of your Elfbot's IV stats by +4.\nConsumed upon use.</string>
+  <string id="101152">A powerful upgrade component for your Elfbot.\n\nWhen held, it reduces incoming damage by 30%, while increasing damage output by 30%.</string>
   <string id="101153">Red Envelope (2020)</string>
   <string id="101154">A red envelope which contains an unknown reward.\n\nMay contain exclusive items for Lunar New Year 2021.\nUse to open.</string>
   <string id="101155">Lucky Red Envelope (2020)</string>
@@ -2850,9 +2893,17 @@
   <string id="101174">Golden Anniversary Chest</string>
   <string id="101175">A very fancy looking box which contains an unknown reward.\n\nMay contain exclusive items for PokeMMO's 10th Anniversary.\nUse to open.</string>
   <string id="101176">Prismatic Pearl</string>
-  <string id="101177">A rainbow-infused pearl rumored to have been harvested from an oddly colored {STRING_150366}.\n\n\nAllows transferring the Hidden Ability potential of a {STRING_0} to another within the same species tree.\n\nConsumed upon use.</string>
+  <string id="101177">A rainbow-infused pearl rumored to have been harvested from an oddly colored {STRING_150366}.\n\nAllows transferring the Hidden Ability potential of a {STRING_0} to another within the same species tree.\n\nConsumed upon use.</string>
   <string id="101178">Assault Gear</string>
-  <string id="101179">A special jacket which raises the holder's Special Defense by 50%.\n\n\nIt prevents the use of all Status moves except "{STRING_110382}" in battle.</string>
+  <string id="101179">A special jacket which raises the holder's Special Defense by 50%.\n\nIt prevents the use of all Status moves except "{STRING_110382}" in battle.</string>
+  <string id="101180">Heavy Boots</string>
+  <string id="101181">An item to be held by a {STRING_0}. These thick-soled boots guard against entry hazard effects like {STRING_110191} when switching into the field.</string>
+  <string id="101182">A fancy looking present which contains an unknown reward.\n\nMay contain exclusive items for Xmas 2022. Use to open.</string>
+  <string id="101183">Xmas Present (2021)</string>
+  <string id="101184">Santa's Present (2021)</string>
+  <string id="101185">Red Envelope (2022)</string>
+  <string id="101186">Lucky Red Envelope (2022)</string>
+  <string id="101187">A red envelope which contains an unknown reward.\n\nMay contain exclusive items for Lunar New Year 2023.\nUse to open.</string>
 
   <string id="101200">{STRING_270600}</string>
   <string id="101201">Raises the {STRING_310418} of a {STRING_0}.</string>
@@ -2973,7 +3024,7 @@
   <string id="101625">Jump Stone</string>
   <string id="101626">An especially buoyant stone.</string>
   <string id="101627">The Mystery of Jumpeon</string>
-  <string id="101628">A longwinded book by a mysterious author.</string>
+  <string id="101628">A long-winded book by a mysterious author.</string>
   <string id="101629">Goodie Bag (2019)</string>
   <string id="101630">Pumpking Goodie Bag (2019)</string>
   <string id="101631">A scary looking bag of treats which contains an unknown reward.\n\nMay contain exclusive items for Halloween 2020. Use to open.</string>
@@ -2989,7 +3040,7 @@
   <string id="101641">Self-Destruct Button</string>
   <string id="101642">Causes the current Elfbot to explode.</string>
   <string id="101643">Repair Kit</string>
-  <string id="101644">Repairs your current Elfbot, removing status ailments and fully healing it.\n\nMay only be used out of battle.\nConsumed upon use.</string>
+  <string id="101644">Fully revives your Elfbot.\n\nMay only be used out of battle.\nConsumed upon use.</string>
   <string id="101645">ElfUp: Gold Edition™</string>
   <string id="101646">Raises your current Elfbot's Level by 5.\n\nConsumed upon use.</string>
   <string id="101647">Attribute Recombinator</string>
@@ -2997,6 +3048,61 @@
   <string id="101649">Goodie Bag (2021)</string>
   <string id="101650">Pumpking Goodie Bag (2021)</string>
   <string id="101651">A scary looking bag of treats which contains an unknown reward.\n\nMay contain exclusive items for Halloween 2022. Use to open.</string>
+  <string id="101652">Exp. Reamplifier</string>
+  <string id="101653">An item which distributes EXP and EVs among all healthy {STRING_0}, even if they don't participate in battle.\n\n50% of battle EXP gained is shared among active {STRING_0}, while 50% is split between {STRING_0} which didn't participate. Each {STRING_0} also gains an additional +5% of the total amount earned from the battle.\n\n{STRING_245216} effects are negated while this item is active.\n\nUse to activate or deactivate.</string>
+  <string id="101654">Lure</string>
+  <string id="101655">A lure which attracts wild {STRING_0} for 100 steps. It has several effects while active:\n\n- Encounter rates increased by +10%\n- Foes are slightly stronger than normal {STRING_0} in the area\n- You may encounter more foes at the same time\n- 5% chance to encounter lure-exclusive species\n\nConsumed upon use.</string>
+  <string id="101656">Super Lure</string>
+  <string id="101657">A lure which attracts wild {STRING_0} for 200 steps. It has several effects while active:\n\n- Encounter rates increased by +10%\n- Foes are slightly stronger than normal {STRING_0} in the area\n- You may encounter more foes at the same time\n- 5% chance to encounter lure-exclusive species\n\nConsumed upon use.</string>
+  <string id="101658">Expert Lure</string>
+  <string id="101659">A lure which attracts wild {STRING_0} for 250 steps. It has several effects while active:\n\n- Encounter rates increased by +10%\n- Foes are slightly stronger than normal {STRING_0} in the area\n- You may encounter more foes at the same time\n- 5% chance to encounter lure-exclusive species\n\nConsumed upon use.</string>
+  <string id="101660">Premium Lure</string>
+  <string id="101661">A premium lure which attracts wild {STRING_0} for 200 steps. It has several effects while active:\n\n- +20% encounter rates\n- Foes are stronger than normal encounters in the area\n- You may encounter more foes at the same time\n- 8% chance to encounter lure-exclusive species\n- Small hordes (3) may increase in size\n- If you encounter a Shiny {STRING_0}, "Secret Shiny" rates are increased by +25%\n\nConsumed upon use.</string>
+  <string id="101662">Premium Super Lure</string>
+  <string id="101663">A premium lure which attracts wild {STRING_0} for 300 steps. It has several effects while active:\n\n- +20% encounter rates\n- Foes are stronger than normal encounters in the area\n- You may encounter more foes at the same time\n- 8% chance to encounter lure-exclusive species\n- Small hordes (3) may increase in size\n- If you encounter a Shiny {STRING_0}, "Secret Shiny" rates are increased by +25%\n\nConsumed upon use.</string>
+  <string id="101664">Premium Max Lure</string>
+  <string id="101665">A premium lure which attracts wild {STRING_0} for 400 steps. It has several effects while active:\n\n- +20% encounter rates\n- Foes are stronger than normal encounters in the area\n- You may encounter more foes at the same time\n- 8% chance to encounter lure-exclusive species\n- Small hordes (3) may increase in size\n- If you encounter a Shiny {STRING_0}, "Secret Shiny" rates are increased by +25%\n\nConsumed upon use.</string>
+  <string id="101666">Energy Elixir</string>
+  <string id="101667">Raises the selected {STRING_0}'s level by 3.\n\nConsumed upon use.</string>
+  <string id="101668">Mysterious {STRING_245004}</string>
+  <string id="101669">A mysterious {STRING_245004} which contains an unknown reward.</string>
+  <string id="101670">Lost Present</string>
+  <string id="101671">A fancy looking present.\n\n{STRING_150225} is looking for these.</string>
+  <string id="101672">Mysterious {STRING_245003}</string>
+  <string id="101673">A mysterious {STRING_245003} which contains an unknown reward.</string>
+  <string id="101674">Mysterious {STRING_245002}</string>
+  <string id="101675">A mysterious {STRING_245002} which contains an unknown reward.</string>
+  <string id="101676">Mysterious {STRING_245012}</string>
+  <string id="101677">A mysterious {STRING_245012} which contains an unknown reward.</string>
+  <string id="101678">Rat Zodiac Tablet</string>
+  <string id="101679">A mysterious tablet embossed with a rat.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101680">Ox Zodiac Tablet</string>
+  <string id="101681">A mysterious tablet embossed with a ox.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101682">Tiger Zodiac Tablet</string>
+  <string id="101683">A mysterious tablet embossed with a tiger.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101684">Rabbit Zodiac Tablet</string>
+  <string id="101685">A mysterious tablet embossed with a rabbit.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101686">Dragon Zodiac Tablet</string>
+  <string id="101687">A mysterious tablet embossed with a dragon.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101688">Snake Zodiac Tablet</string>
+  <string id="101689">A mysterious tablet embossed with a snake.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101690">Horse Zodiac Tablet</string>
+  <string id="101691">A mysterious tablet embossed with a horse.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101692">Goat Zodiac Tablet</string>
+  <string id="101693">A mysterious tablet embossed with a goat.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101694">Monkey Zodiac Tablet</string>
+  <string id="101695">A mysterious tablet embossed with a monkey.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101696">Rooster Zodiac Tablet</string>
+  <string id="101697">A mysterious tablet embossed with a rooster.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101698">Dog Zodiac Tablet</string>
+  <string id="101699">A mysterious tablet embossed with a dog.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101700">Pig Zodiac Tablet</string>
+  <string id="101701">A mysterious tablet embossed with a pig.\nCollecting more of these may lead to special encounters.</string>
+  <string id="101702">Dead Flower</string>
+  <string id="101703">A dead and desiccated flower, once held by an Alpha {STRING_0}.\nMaybe something can revive it?</string>
+  <string id="101704">A special flower which can be used on {STRING_150492} to adjust an IV by 1.\n\nIt can also be planted to grow more {STRING_245466}, and can sometimes grow Nature Herbs.</string>
+  <string id="101705">{00} Nature Herb</string>
+  <string id="101706">An herb which modifies the Nature of a {STRING_0}.\n\nConsumed upon use.</string>
 
   <string id="19950">Colorable</string>
   <string id="19951">Lighting Effects</string>
@@ -3131,7 +3237,7 @@
   <string id="21089">Ghost Costume</string>
   <string id="21090">Holly Hairclip</string>
   <string id="21091">Santa's Little Helper Hat</string>
-  <string id="21092">Propellor Cap</string>
+  <string id="21092">Propeller Cap</string>
   <string id="21093">Plumber's Cap</string>
   <string id="21095">Scary Hockey Mask</string>
   <string id="21096">Earmuffs</string>
@@ -3345,6 +3451,16 @@
   <string id="21339">Purple Cthulhu Mask</string>
   <string id="21340">Skull Helmet</string>
   <string id="21341">Shadow Skull Helmet</string>
+  <string id="21342">Red Christmas Present Hat</string>
+  <string id="21343">Blue Christmas Present Hat</string>
+  <string id="21344">Green Christmas Present Hat</string>
+  <string id="21345">Pink Christmas Present Hat</string>
+  <string id="21346">Psychic Bird Mask</string>
+  <string id="21347">Golden Rabbit Mask</string>
+  <string id="21348">Green Harvest Crown</string>
+  <string id="21349">Red Harvest Crown</string>
+  <string id="21350">White Rabbit Plush</string>
+  <string id="21351">Spring Flower Hairpin</string>
 
   <string id="22000">Default Hair</string>
   <string id="22001">Afro</string>
@@ -3502,6 +3618,11 @@
   <string id="25065">Pointed Yellow Tail</string>
   <string id="25066">Giant Turtle Shell</string>
   <string id="25067">Paladin's Shield</string>
+  <string id="25068">Glistening Blue Wings</string>
+  <string id="25073">Glistening Purple Wings</string>
+  <string id="25078">Green Unity Cape</string>
+  <string id="25079">Red Unity Cape</string>
+  <string id="25080">Bunny Tail</string>
 
   <string id="26000">Desu's Lab Coat (Colour)</string>
   <string id="26001">Overcoat</string>
@@ -3662,6 +3783,13 @@
   <string id="26158">Tiger Costume</string>
   <string id="26159">Fire Dragon Robes</string>
   <string id="26160">Summer School Uniform</string>
+  <string id="26161">Red Christmas Present Costume</string>
+  <string id="26162">Blue Christmas Present Costume</string>
+  <string id="26163">Green Christmas Present Costume</string>
+  <string id="26164">Pink Christmas Present Costume</string>
+  <string id="26165">Thick Winter Coat</string>
+  <string id="26166">Legendary Blue Robes</string>
+  <string id="26167">Legendary Purple Robes</string>
 
   <string id="27000">Slot(23)</string>
   <string id="27001">Gloves</string>
@@ -3751,6 +3879,7 @@
   <string id="120119">The user attacks the target by copying the last move which the user was attacked by. It can only copy moves which damaged the user, though.</string>
   <string id="120135">Heals the user by half of its max HP.</string>
   <string id="120160">The user changes its type to match the type of its first move.</string>
+  <string id="120165">A desperate attack for when the attacker has run out of PP. In PvE battles, its recoil becomes stronger the more times it's used.</string>
   <string id="120168">An attack which steals the foe's held item if the user isn't already holding one. Its effects are temporary when stealing from Trainers.</string>
   <string id="120174">A move which functions differently depending on the type of its user. When used by a Ghost, the target loses 1/4 of their maximum HP every turn, but the user immediately loses half of theirs. For other types, it will reduce Speed while increasing Attack &amp; Defense by 1 stage.</string>
   <string id="120208">Heals the user by half of its max HP.</string>
@@ -4023,6 +4152,7 @@
   <string id="190113">The Original You</string>
 
   <!-- Various battle skill messages -->
+  <string id="200363">{00} is too exhausted to fight more!</string>
   <string id="200364">{00} shifted its position!</string>
   <string id="200365">{00} foresaw a devastating attack.</string>
   <string id="200366">Your team was wrapped in entangling vines!</string>
@@ -4151,7 +4281,6 @@
   <string id="200485">{00}'s {01} won't go any lower!</string>
   <string id="200486">The wild {00}'s {01} won't go any lower!</string>
   <string id="200487">The foe's {00}'s {01} won't go any lower!</string>
-
   <string id="200488">{00} shrugged off its {01} drop!</string>
   <string id="200489">{00} shrugged off its status ailment!</string>
   <string id="200490">Your foe has challenged you to an Inverse Battle!</string>
@@ -4377,6 +4506,18 @@
   <string id="16777245">You do not have enough coins.</string>
   <string id="16777246">A swarm of {00} has been spotted near {01}!</string>
   <string id="16777247">An alpha swarm has been spotted near {01}!</string>
+  <string id="16777248">Exp. Reamplifier is active.</string>
+  <string id="16777249">The Exp. Reamplifier was activated.</string>
+  <string id="16777250">The Exp. Reamplifier was deactivated.</string>
+  <string id="16777251">{00} lure step(s).</string>
+  <string id="16777252">Only affects wild encounters which\noccur while walking or fishing</string>
+  <string id="16777253">{00} premium lure step(s).</string>
+  <string id="16777254">This {STRING_150225} has lost all of\nits presents!\n\nIf you find them, please bring them back here.\n\nWe'll reward you an Xmas Present for\nevery 5 you bring us.</string>
+  <string id="16777255">Did you find any more Lost Presents?</string>
+  <string id="16777256">Oh, you found some Lost Presents!\nPlease take this as a reward.</string>
+  <string id="16777257">Come back when you've found a few\nmore presents!</string>
+  <string id="16777258">{STRING_150225} wants to give you a gift,\nbut it can't if you don't have any room\nfor a new {STRING_0}!</string>
+  <string id="16777259">Oh!\nA special {STRING_150225} wants to join you too!</string>
 
   <string id="16777300">BREAKING NEWS! We have just heard\nword from {00} that wild\n\n{01} have been spotted near\n{02}!</string>
   <string id="16777301">BREAKING NEWS! People upset about\ninconsequential things complain\nin public forums!</string>
@@ -4432,7 +4573,7 @@
 
   <!-- Regional Move Master Tutor -->
   <string id="16779000">I'm the Move Master of {00}!\n\nMy brothers and I have scoured the\nlands to learn every technique we can!</string>
-  <string id="16779001">It doesn't look like you're experienced enough,\nthough.\n\nCome back later and I'll tutor your {STRING_0}!</string>
+  <string id="16779001">It doesn't look like you're experienced enough,\nthough.\n\nCome back later, and I'll tutor your {STRING_0}!</string>
   <string id="16779002">Do you want me to tutor a {STRING_0} of yours?</string>
   <string id="16779003">Which {STRING_0} should be tutored?</string>
   <string id="16779004">Come back if you change your mind.</string>
@@ -4498,7 +4639,7 @@
   <string id="16779083">Which {STRING_0} would you like\nto trade?</string>
   <string id="16779084">Fine, I'll take your {00}.\n\nWhich other {STRING_0} would you\nlike to trade?</string>
   <string id="16779085">These {STRING_0} are unable to\nproduce an Egg...</string>
-  <string id="16779086">Come see me in awhile.</string>
+  <string id="16779086">Come see me in a while.</string>
   <string id="16779087">Ah, it's you!\n\nYou're just in time.\nYour {STRING_0} had an Egg!\n\nAs promised, it belongs to you.\n\nYou do want it, yes?</string>
   <string id="16779088">Come back when you're ready to take\nthis Egg.</string>
   <string id="16779089">Your {00} is holding a(n)\n{01}.\n\nI wouldn't want to take it from you.\nYou should retrieve it.</string>
@@ -4539,7 +4680,7 @@
   <string id="16780155">{00}'s summoned {02}\nused {03}!</string>
 
   <!-- VANITY SHOPS -->
-  <string id="16780160">Oh, the Professor has you working on a {STRING_1}?\n\nI'm researching {STRING_0} which\nhave unusually rare, special abilities.\n\nOnce you've caught all of the {STRING_0}\nin {00}, can you come back and show me?\n\nI think it'd help with my discoveries.</string>
+  <string id="16780160">Oh, the Professor has you working on a {STRING_1}?\n\nI'm researching {STRING_0} which\nhave unusually rare, special abilities.\n\nOnce you've caught all the {STRING_0}\nin {00}, can you come back and show me?\n\nI think it'd help with my discoveries.</string>
   <string id="16780161">I've done it!\n\nThanks to your excellent record keeping,\nI've been able to isolate the compound\nwhich gives {STRING_0} their special ability!</string>
   <string id="16780162">Please take this {00}!\n\nIt's only usable by certain\n{01}-type Starter {STRING_0}, but\nI hope it'll be useful!</string>
   <string id="16780163">Oh, but it doesn't seem {00}\ncan have a special ability.\n\nMaybe another {STRING_0} could use it\ninstead.</string>
@@ -4576,7 +4717,7 @@
   <string id="16780317">The soil is wet.</string>
   <string id="16780318">The soil is flooded.</string>
 
-  <string id="16780319">This plant is dead.\n\nIt looks like it was over watered.\n\nDo you want to clean up the plot?</string>
+  <string id="16780319">This plant is dead.\n\nIt looks like it was overwatered.\n\nDo you want to clean up the plot?</string>
   <string id="16780320">The soil is almost dry.</string>
   <string id="16780321">The soil is almost flooded.</string>
   <string id="16780322">This plant is dead.\n\nIt looks like it was fully grown,\nbut never picked.\n\nDo you want to clean up the plot?</string>
@@ -4614,7 +4755,7 @@
   <string id="16780420">This rock looks like it could be broken open\nby a {STRING_0}'s attack.</string>
   <string id="16780421">This rock looks like it's breakable.\nDo you want to use {STRING_110249}?</string>
 
-  <string id="16780430">Ho-Ho! Your eyes do not deceive you.\n\nThose are my incredibly rare\nShiny {00} and {01}!\n\nMy name is Baron Moray, world-renowned\nconnoisseur of Shiny {STRING_0}!\n\nI'm here to offer you a fantastic deal, you see!\nTrade your Shiny {STRING_0} to me and I'll\ngive you Prismatic Pearls in exchange.</string>
+  <string id="16780430">Ho-Ho! Your eyes do not deceive you.\n\nThose are my incredibly rare\nShiny {00} and {01}!\n\nMy name is Baron Moray, world-renowned\nconnoisseur of Shiny {STRING_0}!\n\nI'm here to offer you a fantastic deal, you see!\nTrade your Shiny {STRING_0} to me, and I'll\ngive you Prismatic Pearls in exchange.</string>
   <string id="16780431">Ho-Ho! Welcome back to the Moray Family\nPrismatic Pearl Exchange!</string>
   <string id="16780432">Hmm...\nIt doesn't seem like you have any\nShiny {STRING_0} with you!</string>
   <string id="16780433">Ho-Ho! Your ongoing patronage is very appreciated!\n\nIn commemoration of our ongoing business,\nplease take this bonus gift of Pearls!</string>
@@ -4651,6 +4792,8 @@
   <string id="16780472">Select 2 {STRING_0} to transfer Hidden Ability\npotential between them.</string>
   <string id="16780473">{00} (Left)</string>
   <string id="16780474">{00} (Right)</string>
+  <string id="16780475">Do you want to activate the EXP Splitter?</string>
+  <string id="16780476">Do you want to deactivate the EXP Splitter?</string>
 
   <string id="16799999">This npc is part of an endgame event.\n\nAll badges in the current region\nare required to participate.</string>
 
@@ -4777,14 +4920,14 @@
   <string id="16801031">ERROR. ERROR.\nREAL SANTA COULD NOT HAVE LOST.\n\nERROR. ERROR.\nI MUST BE IMPOSTER.\n\nDEACTIVATING.</string>
   <string id="16801032">PRESENT DELIVERIES COMPLETED.\nCALCULATING NEXT ROUTINE...</string> <!--Before you talk to santa after spawning-->
 
-  <string id="16801033">Your {STRING_0} are looking worn out...\n\nShall I heal them with a little bit of\nXmas magic?</string>
+  <string id="16801033">Your {STRING_0} are looking worn out...\n\nShall I heal them with a bit of\nXmas magic?</string>
   <string id="16801034">Do you happen to know how to get out\nof this cave?</string>
 
   <string id="16801040">SANTA</string>
   <string id="16801041">SEGMENTATION FAULT</string>
   <string id="16801042">I CAN NOT BE STOPPED</string>
 
-  <string id="16801050">Some pieces of rogue bots\nare lying around here.\n\nBring them to me and we'll\nmake it worth your while.</string>
+  <string id="16801050">Some pieces of rogue bots\nare lying around here.\n\nBring them to me, and we'll\nmake it worth your while.</string>
   <string id="16801051">Your team's score: {00}</string>
   <string id="16801052">Your robot part was registered.\n\nThank you for your contribution!</string>
 
@@ -4824,7 +4967,7 @@
   <string id="16802024">ERROR: $ACTIVE_TRAINERS &lt; 2</string>
   <string id="16802025">STEEL YOURSELF</string>
 
-  <string id="16802030">THEY MUST BE DECOMISSIONED</string>
+  <string id="16802030">THEY MUST BE DECOMMISSIONED</string>
   <string id="16802031">DO NOT SPARE THE TRAITORS</string>
   <string id="16802032">THANK YOU FOR YOUR SERVICE</string>
   <string id="16802033">YOUR TALENTS HAVE BEEN NOTED</string>
@@ -4842,14 +4985,18 @@
   <string id="16804003">Final score: {00}</string>
   <string id="16804004">You were not eligible to receive\nrewards for this mission.</string>
   <string id="16804005">Santa needs your help with a secret mission!\nHe's waiting in {00} for volunteers!</string>
-  <string id="16804006">Ho-ho-ho!\n\nWe've somehow got ourselves into trouble\nonce more!\n\nSome of the elfbots are malfunctioning and we\nneed volunteers to pilot the working ones!\n\nAre you and your friends willing to help?</string>
-  <string id="16804007">You need to be in a link with 2-4\nfriends to enter!</string>
+  <string id="16804006">Ho-ho-ho!\n\nWe've got a mission for you!\nSome of our elfbots are running amok, and we\nneed volunteers to pilot the working ones!\n\nAre you and your friends willing to help?</string>
+  <string id="16804007">Ho-ho-no!\nYou'll need to be in a link with 2-4 players to\nreturn to {STRING_142038}!</string>
   <string id="16804008">Santa has departed, but his elves are still\ncleaning up!\nTurn in your parts in {00} before it's too late!</string>
   <string id="16804009">Santa needs your help with a secret mission!\nHe's waiting nearby for volunteers!</string>
   <string id="16804010">Santa has departed, but his elves are still\ncleaning up!\nTurn in your parts before it's too late!</string>
   <string id="16804011">Xmas Coop Event</string>
+  <string id="16804012">Ho-ho-ho!\n\nAre you and your friends ready to return to {STRING_142038}?</string>
+  <string id="16804013">You'll need to bring 4 {STRING_0} with you into\nthis area.\n\nOnce inside, we're not sure where they'll go!\nYou'll need to rescue them from the Elfbots\nrunning wild.\n\nThe more Elfbots you defeat, the more Presents\nyou'll get as rewards.\nI've heard there are also {STRING_101668}s inside.</string>
+  <string id="16804014">Ho-ho-no!\nYou'll need to bring exactly 4 {STRING_0} with you!</string>
+  <string id="16804015">Slow..?</string>
 
-  <string id="16804100">Ho-ho-no!\n\nYou can't enter this instance\nbefore obtaining your 8th badge!</string>
+  <string id="16804100">Ho-ho-no!\n\nYou can't enter this instance\nbefore obtaining your 4th badge!</string>
   <string id="16804101">{00} (Offensive)</string>
   <string id="16804102">{00} (Defensive)</string>
   <string id="16804103">A massive hunk approaches!</string>
@@ -4858,10 +5005,10 @@
   <string id="16804106">{00} is too far away.</string>
   <string id="16804107">{00} is currently battling!</string>
   <string id="16804108">Your status ailments were healed!</string>
-  <string id="16804109">Your team was credited with {00} {01}(s)!</string>
+  <string id="16804109">Your team picked up {00} {01}(s)!\nThese will be distributed as rewards after this mission is completed.</string>
   <string id="16804110">Your hotkey bar has been temporarily adjusted for this event.</string>
   <string id="16804111">{00}'s {01} has been destroyed!</string>
-  <string id="16804112">It's dangerous outside.\nPick an Elfbot to control before you go.</string>
+  <string id="16804112">It's dangerous outside.\nPick out your {00} Elfbots before you go.</string>
   <string id="16804113">You should choose your {00}\nElfbots before you go.</string>
   <string id="16804114">The enemy bots' typings appear to\ncycle in a predictable way.\n\nWe've found a way to rig the enemies'\nprogramming so that they start as a certain type.</string>
   <string id="16804115">Ask your Link's captain to choose the best\ntype to start against.</string>
@@ -4869,7 +5016,7 @@
   <string id="16804117">Understood. We'll send out a signal to\nconvert the bots to {00} type.</string>
   <string id="16804118">Do you want to choose this {00}?</string>
   <string id="16804119">Do you want the offensive or defensive\nconfiguration?</string>
-  <string id="16804120">{00} selected {01}</string><!-- Player selected Normal Elfbot -->
+  <string id="16804120">{00} selected {01} ({02})</string><!-- Player selected Normal Elfbot -->
   <string id="16804121">You can only select {00} elfbots.</string>
   <string id="16804122">Starting Typing</string>
   <string id="16804123">Enter</string>
@@ -4879,16 +5026,28 @@
   <string id="16804127">Offensive</string>
   <string id="16804128">Defensive</string>
   <string id="16804129">Release Selection</string>
-  <string id="16804130">The {00} is awaiting\nyour command</string>
+  <string id="16804130">The {00} is in {01} mode\nand awaiting your command</string>
   <string id="16804131">{00} deselected {01}</string><!-- Player deselected Normal Elfbot -->
-  <string id="16804132">{00} was selected by {01}</string>
+  <string id="16804132">{00} ({02}) was selected by\n{01}</string>
   <string id="16804133">{00} was added to the spare elfbot pool</string>
   <string id="16804134">{00} was removed from the spare elfbot pool</string>
-  <string id="16804135">You can only select 1 elfbot.\nThe Link's captain will choose the rest.</string>
+  <string id="16804135">Yes ({00})</string>
   <string id="16804136">{00} used the {01}</string>
   <string id="16804137">{00} found a spare part for a {01}.\nCollect another to add {01} to the spare elfbot pool</string>
-  <string id="16804138">Hmm..\nLooks like you've run out of elfbots.\n\nIf you want, you can play with this\ndrone while you wait for your team\nto build you a new one.</string>
+  <string id="16804138">Sorry, but I can't let you back in.\nAll of your Elfbots and {STRING_0} fainted.\n\nIf you want, you can play with this drone\nand watch your linkmates.</string>
   <string id="16804139">This event uses a shared inventory.\nItem trading has been disabled.</string>
+  <string id="16804140">Switch Configuration</string>
+  <string id="16804141">{00} was changed to its {01} configuration</string>
+  <string id="16804142">{00} reclaimed {01}'s {02}!</string><!-- e.g. Player reclaimed PlayerTwo's {STRING_0}}! -->
+  <string id="16804143">{00}'s {01} is being controlled\nby the {02}!\n\nIt doesn't want to fight!</string><!-- e.g. Player reclaimed PlayerTwo's {STRING_0}}! -->
+  <string id="16804144">{00} can't change its equipped item right now</string>
+  <string id="16804145">You can't claim a new {STRING_0} while your party is full!</string>
+  <string id="16804146">Gotcha! {00} popped out of the {STRING_245004}!</string>
+
+  <string id="16804147">{00} {STRING_0} Rescued</string>
+  <string id="16804148">{00} {01}(s) Collected</string>
+  <string id="16804149">{00} Presents Opened</string>
+  <string id="16804150">{00} Elfbots Defeated with Meltdown</string>
 
   <string id="16805000">Lunar New Year event has started.</string>
   <string id="16805001">Lunar New Year event has ended.</string>
@@ -4951,15 +5110,27 @@
   <string id="16805058">Ask your Link's captain to choose which\nenemies to start against.</string>
   <string id="16805059">It's a tiger statue, to help\ncelebrate the new year.\n\n"Made in {00}" is engraved\non the back.</string>
   <string id="16805060">{00} is becoming desperate!\nIt'll make its final stand soon!</string>
+  <string id="16805061">The seasonal event for this instance has ended. Thanks for playing!</string>
+  <string id="16805062">The {00} crumbled to dust...</string>
+  <string id="16805063">A pillar of light stands before you,\nbut it's unresponsive..</string>
+  <string id="16805064">A pillar of light stands before you.\n\nYou can feel a {00} rattling\nin your bag, but the pillar doesn't respond.</string>
+  <string id="16805065">The {00} is rattling\nin your bag.\n\nDo you want to touch the pillar?</string>
+  <string id="16805066">A pillar of light stands before you,\nbut it's unresponsive..</string>
+  <string id="16805067">The Dead Flowers in your bag appear\nto be glowing brightly.\n\nDo you want to touch the pillar?</string>
+  <string id="16805068">{00} revived the Dead Flowers in your bag!\nYou obtained {01} {02}!</string>
+  <string id="16805069">A pillar of light stands before you.\n\nThe Dead Flowers are glowing slightly in\nyour bag, but the pillar doesn't respond.</string>
+  <string id="16805070">Ask your link's captain to sign up for this instance.</string>
+  <string id="16805071">You'll need to be in a link of 2-4 players\nto enter the {00}.</string>
+  <string id="16805072">You're already registered for this event.</string>
 
   <string id="16806000">A dilapidated looking book peddler has appeared in the department store of {STRING_250000}.</string>
   <string id="16806001">The book peddler has been ejected from the department store.</string>
   <string id="16806002">A suspicious pile of rocks.\n\nLook closer?</string>
-  <string id="16806003">You feel the urge to dig\nat the pile of rocks.\n\nYou suppress the urge incase\nsomebody walks by.</string>
+  <string id="16806003">You feel the urge to dig\nat the pile of rocks.\n\nYou suppress the urge in case\nsomebody walks by.</string>
   <string id="16806004">Surely this is where he buried it.\n\nYou dig at the pile of rocks.</string>
   <string id="16806005">Nothing interesting after all.</string>
   <string id="16806006">What the?!\n\nSomething's springing out\nof the ground!</string>
-  <string id="16806007">They laughed at me!\nFor years, they laughed!\n\n"7F" they said.\nWell here I am finally, with my masterpiece:\nThe Mystery of Jumpeon!\n\nWhat do you say?\n\nWant a copy of the next best seller?\nOnly $4,999!</string>
+  <string id="16806007">They laughed at me!\nFor years, they laughed!\n\n"7F" they said.\nWell here I am finally, with my masterpiece:\nThe Mystery of Jumpeon!\n\nWhat do you say?\n\nWant a copy of the next bestseller?\nOnly $4,999!</string>
   <string id="16806008">Wow! My first sale!\nThanks, kid!</string>
   <string id="16806009">What? You too?\nGet out of here then!</string>
   <string id="16806010">The barrel?\n\nWho needs clothes when\nyou have literature!</string>
@@ -5332,7 +5503,6 @@
   <string id="17000305">It's a real match. Whoever loses has\nto walk all the way to the bottom.</string>
   <string id="17000306">Heh. Ummm...\nDo I have to keep my promise?</string>
   <string id="17000307">For some reason I'm no longer\nable to walk back down.</string>
-
   <!-- yes no prompts-->
   <string id="50">\n           Yes           \n</string>
   <string id="51">\n           No           \n</string>
@@ -5427,6 +5597,7 @@
   <!-- leppa -->
   <string id="8600">​</string>
   <string id="8601">​</string>
+
 
 
 </strings>

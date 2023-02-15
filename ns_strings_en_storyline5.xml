@@ -1504,7 +1504,7 @@
     <string block_id="0" entry_id="8" table_id="53">A tip for getting strong\nin Pokémon battles...\n\nLet me see.\nI guess the most important thing is...\n\nhaving a lot of battles!\n\nIf you become very strong, come back\nand have a Pokémon battle with me!</string>
     <string block_id="0" entry_id="9" table_id="53">​</string><!-- morimoto-->
     <string block_id="0" entry_id="10" table_id="53">​</string>
-    <string block_id="0" entry_id="11" table_id="53">You think about battles very thoroughly.\n\nI lost, but I learned a lot from you.\nBesides, it was fun!\n\nCome back again tomorrow.</string>
+    <string block_id="0" entry_id="11" table_id="53">​</string>
     <string block_id="0" entry_id="12" table_id="53">No?\n\nI've been raising Pokémon, thinking about\ntheir Abilities and just the right\n\ncombination of held items.\n\nWhat a pity...\n</string>
     <string block_id="0" entry_id="13" table_id="53">I'm Snorlax.\n\nNo, no. I'm the Planner!\n\nI don't mean to butt in, but the\nLeftovers item is important, isn't it?</string>
     <string block_id="0" entry_id="14" table_id="53">I am the Sound Designer!\n\nI put in a lot of wonderful mechanisms\nto change the game's music!\n\nHow many of them have you noticed?</string>
@@ -4113,7 +4113,7 @@
     <string block_id="0" entry_id="26" table_id="280"/>
     <string block_id="0" entry_id="27" table_id="280">{00} used Flash!\n\n</string>
     <string block_id="0" entry_id="28" table_id="280">\n</string><!-- Teleport -->
-    <string block_id="0" entry_id="29" table_id="280">{00} used Dig!\n\n</string>
+    <string block_id="0" entry_id="29" table_id="280">\n</string><!-- dig-->
     <string block_id="0" entry_id="30" table_id="280">It's a deep part of the sea, but a\nPokémon may be able to dive down.</string>
     <string block_id="0" entry_id="31" table_id="280">It's a deep part of the sea.\nWould you like to use Dive?</string>
     <string block_id="0" entry_id="32" table_id="280">{00} used Dive!\n\n</string>
@@ -6405,8 +6405,8 @@
     <string block_id="0" entry_id="5" table_id="420">Pokémon Eggs hatch when you carry them\nwith you. Being around healthy Pokémon\n\nhelps them grow!</string>
     <string block_id="0" entry_id="6" table_id="420">{00} obtained the Egg!</string>
     <string block_id="0" entry_id="7" table_id="420"/>
-    <string block_id="0" entry_id="8" table_id="420">Wait! Wait!\n\nAren't your Pokémon a bit tired?\nHere, don't be shy! Let them rest!\n\n</string>
-    <string block_id="0" entry_id="9" table_id="420">Your Pokémon are so energetic!</string>
+    <string block_id="0" entry_id="8" table_id="420">​</string>
+    <string block_id="0" entry_id="9" table_id="420">​</string>
     <string block_id="0" entry_id="0" table_id="421">It's full of cardboard boxes with\nelectrical appliances in them.</string>
     <string block_id="0" entry_id="1" table_id="421">It's full of cardboard boxes with\nelectrical appliances in them.\n\nOh? Rotom would like to investigate the\nmotors of the electrical appliances...\n\nIs that OK?</string>
     <string block_id="0" entry_id="2" table_id="421">Rotom reluctantly gave up\non entering a motor...</string>
@@ -7089,24 +7089,24 @@
     <string block_id="0" entry_id="3" table_id="456">In order to get to know each other\nbetter as Pokémon Trainers,\n\nI would like our Pokémon to have a match.\n\nWould you care to be my opponent?</string>
     <string block_id="0" entry_id="4" table_id="456">Before I send out my Pokémon,\nmy heart always begins to race...\n\nInteresting...\nMy Pokémon in their Poké Balls are\n\nradiating a happy feeling.\n\nAre you the reason?\nWhat are you?\n\n</string>
     <string block_id="0" entry_id="5" table_id="456">Ha ha. You prefer to take things slowly\nand rationally, am I right?\n\nWhen you're ready, come and talk to me.\nI'll be happy to see you.</string>
-    <string block_id="0" entry_id="6" table_id="456">Cynthia: Oh.\nYou've had a chance to get ready?\n\nI do want our Pokémon to have a match...\nAre you prepared to be my opponent?</string>
-    <string block_id="0" entry_id="7" table_id="456">Cynthia: That was beyond my expectation!\nWhat an exceptional battle!\n\nYou certainly bear a resemblance\nto that Trainer who faced Giratina...\n\nOh, pardon me.\nI was just thinking out loud.\n\nI love being here in spring and summer.\n\nI can't stay all year, because there's\nso much to investigate in Sinnoh, as well.\n\nYou're a great Trainer, and it would make\nme happy to see you again sometime.</string>
-    <string block_id="0" entry_id="8" table_id="456">Cynthia: I love to come here in\nspring and summer.\n\nBut there are a lot of things to\ninvestigate in Sinnoh, as well.\n\nI'd be delighted to see you again.\nYou're an awesome Pokémon Trainer!</string>
-    <string block_id="0" entry_id="9" table_id="456">Cynthia: How terrific to see you again!\n\nI've got to tell you...\nMy Pokémon are excited to battle yours.\n\nWould you care to be my opponent?</string>
-    <string block_id="0" entry_id="10" table_id="456">Cynthia: This will be such fun!\nNo holds barred!\n\n</string>
-    <string block_id="0" entry_id="11" table_id="456">Cynthia: Oh, what a pity.\n\nSummers in Undella Town make me feel like\nI'm on holiday. I forget about battling!\n\nBut in spring, I feel like getting\nworked up with a good battle.</string>
-    <string block_id="0" entry_id="12" table_id="456">Cynthia: I can tell that my Pokémon are\nexcited about battling your Pokémon...\n\nWould you care to be my opponent?</string>
-    <string block_id="0" entry_id="13" table_id="456">Cynthia: For some reason, this reminds me\nof a time when I told a Trainer like you\n\nto go see many, many more places\n\nand to meet many more Pokémon.\n\nFor me, it has really been worthwhile to\ncome all the way to far Unova.\n\nWhy? Because...\nI met you, and my world got wider!</string>
-    <string block_id="0" entry_id="14" table_id="456">Cynthia: To live their lives to the\nfullest, people and Pokémon need\n\nthe chance to throw themselves into\n\nbattle against the fiercest opposition.\n\nThat's why I want to battle you.\nHow about it?</string>
-    <string block_id="0" entry_id="15" table_id="456">Cynthia: As our Pokémon meet in battle,\nI'll learn more about you\n\nand how you've taken care of them.\n\n</string>
-    <string block_id="0" entry_id="16" table_id="456">Cynthia: I'm a little disappointed.\n\nI know you can battle on bigger\nstages than you've done so far!\n\nIt's so plain to me that your light can\nshine brighter than this...</string>
-    <string block_id="0" entry_id="17" table_id="456">Cynthia: Are you prepared?\n\nLet's battle at full strength and see\nhow bright our lights can shine!</string>
-    <string block_id="0" entry_id="18" table_id="456">Cynthia: When you meet Trainers, battle\nthem to learn about the kind of people\n\nthey are. Observe the Pokémon they\n\nchoose, which moves they taught them,\n\nand which items the Pokémon hold.\n\nYou don't need words at such times...\n\nIf you want to know more about me...\nCome to Sinnoh!</string>
-    <string block_id="0" entry_id="19" table_id="456">Caitlin: Having everything go your way\nis the road to disillusionment.\n\nKnowing the difference between what's\nimpossible and what's possible...\n\nI used to know someone who \ntalked about that a lot.</string>
-    <string block_id="0" entry_id="20" table_id="456">Caitlin: No matter how hard I try,\nI cannot defeat Cynthia.\n\nBefore, I would have exploded with rage.\n\nNow, I have the tranquility to reflect on\nmy performance to see how I can improve.</string>
-    <string block_id="0" entry_id="21" table_id="456">Caitlin: Tell me something.\nAre you familiar with Battle Castles?\n\nYou can find them in Johto and Sinnoh,\nso challenge them to improve yourself.</string>
-    <string block_id="0" entry_id="22" table_id="456">Caitlin: This is my villa.\n\nI have villas all over the world,\nand I allow Cynthia to use them.\n\nYou are welcome to come and play\nwhenever you wish.</string>
-    <string block_id="0" entry_id="23" table_id="456">Caitlin: Having no psychic powers at all\nis better than having psychic powers\n\nyou can't control.</string>
+    <string block_id="0" entry_id="6" table_id="456">​</string>
+    <string block_id="0" entry_id="7" table_id="456">​</string>
+    <string block_id="0" entry_id="8" table_id="456">​</string>
+    <string block_id="0" entry_id="9" table_id="456">​</string> <!-- cynthia undella-->
+    <string block_id="0" entry_id="10" table_id="456"></string>
+    <string block_id="0" entry_id="11" table_id="456">​</string>
+    <string block_id="0" entry_id="12" table_id="456">​</string>
+    <string block_id="0" entry_id="13" table_id="456">​</string>
+    <string block_id="0" entry_id="14" table_id="456">​</string>
+    <string block_id="0" entry_id="15" table_id="456">​</string>
+    <string block_id="0" entry_id="16" table_id="456">​</string>
+    <string block_id="0" entry_id="17" table_id="456">​</string>
+    <string block_id="0" entry_id="18" table_id="456">​</string>
+    <string block_id="0" entry_id="19" table_id="456">​</string>
+    <string block_id="0" entry_id="20" table_id="456">​</string>
+    <string block_id="0" entry_id="21" table_id="456">​</string>
+    <string block_id="0" entry_id="22" table_id="456">​</string>
+    <string block_id="0" entry_id="23" table_id="456">​</string>
     <string block_id="0" entry_id="24" table_id="456">Shauntal: When I'm writing novels,\nif I don't have enough input,\n\nmy output suffers.\n\nIt's the same thing for Trainers.\n\nTo grow stronger, Trainers need to have\ncountless battles and learn many things.\n\nThen, they must put what they've learned\nto the test in real battles.</string>
     <string block_id="0" entry_id="25" table_id="456">Shauntal: Rainbow Wing...\nSilver Wing...\n\nThey stir the imagination!</string>
     <string block_id="0" entry_id="26" table_id="456">Shauntal: Distortion World...\nand the single Pokémon found there...\n\nWhat an amazing scene!</string>
