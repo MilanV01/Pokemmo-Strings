@@ -4705,39 +4705,17 @@
   <string id="16780306">Are you sure you wish to plant\nx{00} {01}(s)?</string>
   <string id="16780307">Are you sure you wish to plant\nx{00} {01}(s)\nand x{02} {03}(s)?</string>
   <string id="16780308">Are you sure you wish to plant\nx{00} {01}(s),\nx{02} {03}(s),\nand x{04} {05}(s)?</string>
-  <string id="16780309">{01} planted the seeds in the loamy soil.</string>
-  <string id="16780310">Some seeds are planted here.</string>
-  <string id="16780311">The seeds have sprouted.</string>
   <string id="16780312">seeds</string>
   <string id="16780313">sapling</string>
   <string id="16780314">This plant is dead.\n\nIt looks like it did not get enough water.\n\nDo you want to clean up the plot?</string>
 
-  <string id="16780315">The soil is dry.</string>
-  <string id="16780316">The soil is moist.</string>
-  <string id="16780317">The soil is wet.</string>
-  <string id="16780318">The soil is flooded.</string>
-
   <string id="16780319">This plant is dead.\n\nIt looks like it was overwatered.\n\nDo you want to clean up the plot?</string>
-  <string id="16780320">The soil is almost dry.</string>
-  <string id="16780321">The soil is almost flooded.</string>
   <string id="16780322">This plant is dead.\n\nIt looks like it was fully grown,\nbut never picked.\n\nDo you want to clean up the plot?</string>
   <string id="16780323">A {STRING_240268} is needed to plant seeds.</string>
-  <string id="16780324">The {00} plant has started to grow taller.</string>
-  <string id="16780325">The {00} plant is growing {01}.</string>
-  <string id="16780326">It's soft fertile soil.\n\nWould you like to plant seeds?</string>
-  <string id="16780327">Would you like to water the {00}?</string>
-  <string id="16780328">{00} watered the {01}.</string>
-  <string id="16780329">There are {01} {00}!\n\nWould you like to pick the {00}?</string>
   <string id="16780330">You did not pick the {00}.</string>
-  <string id="16780331">{00} picked {01} {02}.</string>
+  
 
-  <string id="16780335">The soil is now dry.</string>
-  <string id="16780336">The soil is now almost dry.</string>
-  <string id="16780337">The soil is now moist.</string>
-  <string id="16780338">The soil is now wet.</string>
-  <string id="16780339">The soil is now almost flooded.</string>
-  <string id="16780340">The soil is now flooded.</string>
-
+ 
   <string id="16780350">excellently</string>
   <string id="16780351">beautifully</string>
   <string id="16780352">nicely</string>
@@ -5598,6 +5576,28 @@
   <string id="8600">​</string>
   <string id="8601">​</string>
 
-
+  <!-- berries-->
+  <string id="16780326">​</string>
+  <string id="16780309">​</string>
+  <string id="16780310">​</string>
+  <string id="16780315">​</string>
+  <string id="16780316">​</string>
+  <string id="16780317">​</string>
+  <string id="16780318">​</string>
+  <string id="16780320">​</string>
+  <string id="16780321">​</string>
+  <string id="16780335">​</string>
+  <string id="16780336">​</string>
+  <string id="16780337">​</string>
+  <string id="16780338">​</string>
+  <string id="16780339">​</string>
+  <string id="16780340">​</string>
+  <string id="16780327">​</string>
+  <string id="16780328">​</string>
+  <string id="16780324">​</string>
+  <string id="16780325">​</string>
+  <string id="16780329">​</string>
+  <string id="16780331">​</string>
+  <string id="16780311">​</string>
 
 </strings>
