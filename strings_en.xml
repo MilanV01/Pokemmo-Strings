@@ -257,7 +257,7 @@
   <string id="1116">Gift Shop</string>
   <string id="1117">Party</string>
   <string id="1118">PC Deposit Box</string>
-  <string id="1119">BOX {00}</string>
+  <string id="1119">B{00}</string>
   <string id="1120">Team</string>
   <string id="1121">Nearby Players</string>
   <string id="1122">No Nearby Players</string>
@@ -480,6 +480,7 @@
   <string id="1328">Blend Overworld in Battle:</string>
   <string id="1329">Old Chat Theme:</string>
   <string id="1330">Chat Bubbles:</string>
+  <string id="1331">Swap Hotbar and Party:</string>
   <string id="1332">Client Language:</string>
   <string id="1333">Wait for Key Press In Battle:</string>
   <string id="1334">Screenshot Format:</string>
@@ -504,13 +505,19 @@
   <string id="1352">Auto Decline Trade Requests:</string>
   <string id="1353">Auto Decline Team Invites:</string>
   <string id="1354">Auto Decline Link Invites:</string>
+  <string id="1355">Block Whispers:</string>
 
   <string id="1360">Others</string>
   <string id="1361">Friends</string>
   <string id="1362">Team</string>
 
+  <string id="1363">Key Next:</string>
+  <string id="1364">Key Previous:</string>
+
   <string id="1365">Output Device:</string>
   <string id="1366">Auto</string>
+
+  <string id="1367">Couldn't save settings, the "{00}" key is unbound.</string>
 
   <string id="1370">{00} has been copied to internal storage.</string>
   <string id="1371">PokeMMO does not have access to removable media due to the current Snap permissions.\nTo enable access to external drives, toggle on the "removable-media" permission in the Software Center for this Snap.</string>
@@ -549,6 +556,7 @@
   <string id="1404">Medicine</string>
   <string id="1405">Battle Items</string>
 
+  <string id="1409">Take {00} Items</string>
   <string id="1410">Use</string>
   <string id="1411">Give</string>
   <string id="1412">Register</string>
@@ -574,6 +582,7 @@
   <string id="1433">With 40 Gems, changes {STRING_110237}\nto {00}</string>
   <string id="1434">Causes moves which change held items to fail</string>
   <string id="1435">Are you sure you want to use the {00}?</string>
+  <string id="1436">Can't be held by {STRING_0}</string>
 
   <string id="1440">Catch rate: {00}</string>
   <string id="1441">Min catch rate: {00}</string>
@@ -614,7 +623,6 @@
   <string id="1509">System Messages</string>
   <string id="1510">Link</string>
 
-  <string id="1512">You are now in Do Not Disturb mode with the reason "{00}".</string>
   <string id="1513">Sorry, this channel does not allow local chatting.</string>
   <string id="1514">Connecting to chat server...</string>
   <string id="1515">Could not connect to chat server. Retrying in {00} seconds...</string>
@@ -629,10 +637,7 @@
   <string id="1524">Please specify a target to whisper.</string>
   <string id="1525">Send</string>
   <string id="1526">Whispering</string>
-  <string id="1527">{00} is currently in Do Not Disturb mode.</string>
-  <string id="1528">{00} is currently in Do Not Disturb mode with the message "{01}".</string>
-  <string id="1529">You are now in Do Not Disturb mode.</string>
-  <string id="1530">You are no longer in Do Not Disturb mode.</string>
+  <string id="1527">{00} is currently blocking whispers.</string>
   <string id="1531">You must be in a Team to use Team chat.</string>
   <string id="1532">Chat Tab Settings</string>
   <string id="1533">Add New Tab</string>
@@ -1071,6 +1076,7 @@
   <string id="2257">Spectate</string>
   <string id="2258">Invite to Link</string>
   <string id="2259">Whisper Window</string>
+  <string id="2260">Do you want to remove {00} from your friendlist?</string>
 
   <!-- PC MENU -->
   <string id="2300">Summary</string>
@@ -1084,6 +1090,19 @@
   <string id="2311">Are you sure you want to release {00}?</string>
   <string id="2312">Error loading PC Deposit Box information.</string>
   <string id="2313">Move To Front</string>
+  <string id="2314">Multiselect</string>
+  <string id="2315">Auto Sort</string>
+  <string id="2316">Show Items</string>
+  <string id="2317">Move</string>
+  <string id="2318">Stats:</string>
+  <string id="2319">PC slot</string>
+
+  <string id="2330">Level</string>
+  <string id="2331">Number</string>
+  <string id="2332">Egg group</string>
+  <string id="2333">Primary type</string>
+  <string id="2334">Total IV</string>
+  <string id="2335">Sort</string>
 
   <string id="2350">Which function would you like to access?</string>
   <string id="2351">{01}'s PC</string>
@@ -1421,16 +1440,16 @@
   <string id="3532">Boosts Water-type moves by half, and reduces Fire-type moves' effectiveness by half while active</string>
   <string id="3533">Boosts the SP.DEFENSE of Rock-type {STRING_0} by half while active</string>
   <string id="3534">Activates twice as fast during harsh sunlight. Its power is halved during other weather</string>
-  <string id="3535">Will never miss during hail</string>
+  <string id="3535">Will never miss while snowing</string>
   <string id="3536">Its accuracy is increased while it's raining, but decreased during other weather</string>
   <string id="3537">Its healing is increased during harsh sunlight, but decreased during other weather</string>
   <string id="3538">This Normal-type move can affect Ghost-type {STRING_0}</string>
   <string id="3539">Will never miss if used by a Poison-type {STRING_0}</string>
-  <string id="3540">Its success rate is halved when used consecutively</string>
+  <string id="3540">Its success rate is reduced by two-thirds for each consecutive use</string>
   <string id="3541">Thaws the user if they're Frozen</string>
   <string id="3542">Weather lasts for 5 turns, and overrides any previous weather</string>
   <string id="3543">{00}% of the attacker's Max HP is recoiled after attacking</string>
-
+  <string id="3544">Slicing move, affected by Sharpness</string>
   <string id="3545">{00}% chance to raise the attacker's {01} by {02} stage(s)</string>
   <string id="3546">{00}% chance to raise the target's {01} by {02} stage(s)</string>
   <string id="3547">{00}% chance to reduce the attacker's {01} by {02} stage(s)</string>
@@ -1718,7 +1737,7 @@
   <string id="5635">You can't sign up with a storyline team while your current region is incomplete. Please choose a different party.</string>
   <string id="5636">Please select exactly {00} EVs.</string>
   <string id="5637">This has been temporarily banned from this tier because its Hidden Ability was recently released.\nIt may be permanently banned from this tier in the future.</string>
-  <string id="5638">Please select exactly 1 IV adjustment.</string>
+  <string id="5638">{00} needed: {01}</string>
 
   <string id="5645">Seasonal Rewards:</string>
   <string id="5646">Matchmaking Rewards:</string>
@@ -2042,6 +2061,7 @@
   <string id="6084">Your team did not score highly enough to receive rewards for this mission.</string>
   <string id="6085">Your team has {00} lives remaining.</string>
   <string id="6086">{00} picked up {01} {02}(s)!\n\n{00} put the items in their bag.</string>
+  <string id="6087">You have used {00} {01}(s).</string>
 
   <string id="6090">That item can not be destroyed.</string>
   <string id="6091">{00} items can not replace {00} moves.</string>
@@ -2061,6 +2081,11 @@
   <string id="6105">The requested nickname is not permitted.</string>
   <string id="6106">{00} can't have its nickname changed right now.</string>
   <string id="6107">The requested nickname could not be used. Please pick a more unique name.</string>
+  
+  <!-- HATCHING RELATED -->
+  <string id="6150">Do you wish to skip the animation?</string>
+  <string id="6151">Don't show this animation again.</string>
+  <string id="6152">Disable hatching animations:</string>
 
   <!-- PARTICLE -->
   <string id="6200">{00} has obtained the "{01}" particle.</string>
@@ -2303,9 +2328,31 @@
   <string id="8051">OLDEST</string>
   <string id="8052">LOWEST PRICE</string>
   <string id="8053">HIGHEST PRICE</string>
+  
+  <!-- Trade log -->
+  <string id="8069">No recent trade activity was found.</string>
+  <string id="8070">Trade Log</string>
+  <string id="8071">Send</string>
+  <string id="8072">Received</string>
+  <string id="8073">Type</string>
+  
+  <string id="8074">Trade</string>
+  <string id="8075">Mail</string>
+  <string id="8076">GTL</string>
+  <string id="8077">Mart</string>
 
 
   <!-- SEARCH -->
+  <string id="8089">Back</string>
+  <string id="8090">More Filter</string>
+  <string id="8091">Show affordable only</string>
+  <string id="8092">Min Required IV Matches</string>
+  <string id="8093">Min {00} EV</string>
+  <string id="8094">Max {00} EV</string>
+  <string id="8095">Move {00} couldn't be found.</string>
+  <string id="8096">Has Move</string>
+  <string id="8097">Catch Year</string>
+  <string id="8098">Fateful Encounter</string>
   <string id="8099">Hidden Ability</string>
   <string id="8100">Gender</string>
   <string id="8101">MALE</string>
@@ -3112,6 +3159,7 @@
   <string id="19955">Event Only</string>
   <string id="19956">PvP Reward</string>
   <string id="19957">Triggerable Animation</string>
+  <string id="19958">One of a Kind</string>
 
   <string id="19960">Released in {00} {01}</string><!-- Month/Year format, e.g. February 2013 -->
   <string id="19961">First seen {00} {01}</string><!-- Month/Year format, e.g. February 2013 -->
@@ -3461,6 +3509,7 @@
   <string id="21349">Red Harvest Crown</string>
   <string id="21350">White Rabbit Plush</string>
   <string id="21351">Spring Flower Hairpin</string>
+  <string id="21352">Gloria</string>
 
   <string id="22000">Default Hair</string>
   <string id="22001">Afro</string>
@@ -3874,6 +3923,8 @@
   <string id="32046">Violet</string>
   <string id="32047">Dark Violet</string>
 
+  <string id="110258">Snowscape</string>
+
   <string id="120006">Throws coins at the foe which are recovered after the battle. The amount of coins increases with the foe's level. It's only effective once per battle.</string>
   <string id="120100">When used by a Trainer, it switches the user out no matter what. Wild {STRING_0} may flee instantly. When used out of battle, it will warp you to the last {STRING_12}.</string>
   <string id="120119">The user attacks the target by copying the last move which the user was attacked by. It can only copy moves which damaged the user, though.</string>
@@ -3888,14 +3939,17 @@
   <string id="120230">Expels a sweet scent which lowers the foe's Evasion. It lures hordes of {STRING_0} when used in areas which have wild encounters, but requires more PP.</string>
   <string id="120237">An attack which varies in type depending on its user. Its type may be changed with 40 Gems.</string>
   <string id="120242">Crunches the foe with its sharp teeth. It may lower their Defense stat.</string>
+  <string id="120258">A snowstorm forms on the field for 5 turns. Snow boosts the Defense stat of Ice-types by 50%.</string>
+  <string id="120268">The user charges up, doubling the power of the next Electric-type move. It also raises the Sp. Def of the user by 1 stage.</string>
   <string id="120273">A turn after this move is used, it heals the {STRING_0} in the user's current position by half of the user's max HP.</string>
   <string id="120301">An attack which lasts 5 turns, becoming stronger every time it hits. Its power is doubled if {STRING_110111} was used.</string>
   <string id="120336">The user howls loudly, raising its team's Attack stat.</string>
   <string id="120343">An attack which steals the foe's held item if the user isn't already holding one. Its effects are temporary when stealing from Trainers.</string>
   <string id="120361">The user faints immediately. In return, the {STRING_0} which is next sent out will have its HP healed completely and Status removed. If the {STRING_0} is already full HP, the Wish will wait for the next {STRING_0} sent out.</string>
   <string id="120374">The user flings its item at the foe, destroying it. In PvP, only consumable items are destroyed permanently. The move's power and effects vary depending on what item is thrown.</string>
-  <string id="120469">The user's team is protected from wide-ranging attacks for one turn. If used consecutively, {STRING_110182}, {STRING_110197}, and {STRING_110203} can fail.</string>
-  <string id="120501">The user's team is protected from priority attacks for one turn. If used consecutively, {STRING_110182}, {STRING_110197}, and {STRING_110203} can fail.</string>
+  <string id="120469">The user's team is protected from wide-ranging attacks for one turn. If used consecutively with another protection move, {STRING_110182}, {STRING_110197}, and {STRING_110203} may fail.</string>
+  <string id="120501">The user's team is protected from priority attacks for one turn. If used consecutively with another protection move, {STRING_110182}, {STRING_110197}, and {STRING_110203} may fail.</string>
+  <string id="120502">The user teleports, switching places with its adjacent ally. It may fail if used consecutively.</string>
 
   <string id="130119">{00} frisked {01}\nand found one {02}!</string>
   <string id="130120">{00} frisked {01}\nand found an item!</string>
@@ -4042,7 +4096,7 @@
   <string id="135275">An item to be held by a {STRING_0}.\nIf it has full HP, The holder will endure a potential KO attack with 1HP.\n\nThis item is consumed upon use.</string>
   <string id="135277">An item to be held by a {STRING_0}.\nIt boosts the power of a move by 20% for each consecutive use, up to a maximum increase of 100%.</string>
   <string id="135281">An item to be held by a {STRING_0}.\nWhen held by a {STRING_230003}-type {STRING_0} in battle, 6.25% of the holder's HP is restored at the end of each turn.\n\nWhen held by a Non-{STRING_230003}-type {STRING_0}, it inflicts 12.5% of damage at the end of each turn. {STRING_0} with the ability {STRING_210098} are immune to this effect.</string>
-  <string id="135282">An item to be held by a {STRING_0}.\nIt extends the duration of Hail weather to 8 turns, when created by the item holder.</string>
+  <string id="135282">An item to be held by a {STRING_0}.\nIt extends the duration of Snowy weather to 8 turns, when created by the item holder.</string>
   <string id="135283">An item to be held by a {STRING_0}.\nIt extends the duration of Sandstorm weather to 8 turns, when created by the item holder.</string>
   <string id="135284">An item to be held by a {STRING_0}.\nIt extends the duration of Harsh Sunlight weather to 8 turns, when created by the item holder.</string>
   <string id="135285">An item to be held by a {STRING_0}.\nIt extends the duration of Rain weather to 8 turns, when created by the item holder.</string>
@@ -4152,6 +4206,10 @@
   <string id="190113">The Original You</string>
 
   <!-- Various battle skill messages -->
+  <string id="200359">{STRING_110268} boosted the effects\nof {00}!</string>
+  <string id="200360">Snow is falling.</string>
+  <string id="200361">The snow stopped.</string>
+  <string id="200362">It started to snow!</string>
   <string id="200363">{00} is too exhausted to fight more!</string>
   <string id="200364">{00} shifted its position!</string>
   <string id="200365">{00} foresaw a devastating attack.</string>
@@ -4329,7 +4387,7 @@
   <string id="220515">{STRING_220092}</string>
   <string id="210516">Startup: Sunny Day</string>
   <string id="220516">{STRING_220070}</string>
-  <string id="210517">Startup: Hail</string>
+  <string id="210517">Startup: Snowstorm</string>
   <string id="220517">{STRING_220117}</string>
   <string id="210518">Config: Defensive Programming</string>
   <string id="220518">{STRING_220062}</string>
@@ -4388,13 +4446,15 @@
   <string id="210545">Competitive</string>
   <string id="220545">Sharply boosts Special Attack\nwhen a stat is lowered by a foe</string>
   <string id="210546">Snow Plow</string>
-  <string id="220546">Doubles Speed while it's\nhailing</string>
+  <string id="220546">Doubles Speed while it's\nsnowing</string>
   <string id="210547">Protean</string>
-  <string id="220547">Changes type to match the\nmove it's using</string>
+  <string id="220547">Changes typing to match the move\nit's using, but only once</string>
   <string id="210548">Reactive Gas</string>
   <string id="220548">Suppresses all other\n{STRING_0} abilities</string>
   <string id="210549">Rob the Rich</string>
   <string id="220549">--</string>
+  <string id="210550">Sharpness</string>
+  <string id="220550">Boosts the power of slicing\nmoves by 50%.</string>
 
   <!-- Overworld Ability indicators -->
   <string id="211001">-15% wild {STRING_0} encounter rate.</string>
@@ -4449,9 +4509,12 @@
   <string id="220071">Prevents grounded foes from\nfleeing battle.</string>
   <string id="220073">Prevents foes reducing its stats.</string>
   <string id="220074">Doubles the {STRING_0}'s Attack.</string>
+  <string id="220081">Raises evasion while in a\nsnowstorm.</string>
   <string id="220082">Berries will trigger at\nhalf hp.</string>
   <string id="220087">Loses HP during Sunlight.\nWater attacks and Rain restores.</string>
   <string id="220113">Allows hitting Ghost-types.\nCan't be Intimidated.</string>
+  <string id="220115">The {STRING_0} gradually regains\nHP while it's snowing.</string>
+  <string id="220117">The {STRING_0} summons a snowstorm\nwhen entering battle.</string>
   <string id="220136">Reduces damage by half when\nat full HP.</string>
   <string id="220140">Dodges all allied attacks.</string>
   <string id="220142">Protects from damaging weather\nand powder moves.</string>
@@ -4518,6 +4581,9 @@
   <string id="16777257">Come back when you've found a few\nmore presents!</string>
   <string id="16777258">{STRING_150225} wants to give you a gift,\nbut it can't if you don't have any room\nfor a new {STRING_0}!</string>
   <string id="16777259">Oh!\nA special {STRING_150225} wants to join you too!</string>
+  <string id="16777260">You want to learn the strongest\nDragon-type move?\n\nAlright, here you go.</string>
+  <string id="16777261">The destructive power of {STRING_110434} is\nincredible!\n\nBut be careful: After using it,\nthe {STRING_0}'s Sp. Attack goes down.</string>
+  <string id="16777262">Don't be like that!\nHere, take this.</string>
 
   <string id="16777300">BREAKING NEWS! We have just heard\nword from {00} that wild\n\n{01} have been spotted near\n{02}!</string>
   <string id="16777301">BREAKING NEWS! People upset about\ninconsequential things complain\nin public forums!</string>
@@ -4705,17 +4771,39 @@
   <string id="16780306">Are you sure you wish to plant\nx{00} {01}(s)?</string>
   <string id="16780307">Are you sure you wish to plant\nx{00} {01}(s)\nand x{02} {03}(s)?</string>
   <string id="16780308">Are you sure you wish to plant\nx{00} {01}(s),\nx{02} {03}(s),\nand x{04} {05}(s)?</string>
+  <string id="16780309">{01} planted the seeds in the loamy soil.</string>
+  <string id="16780310">Some seeds are planted here.</string>
+  <string id="16780311">The seeds have sprouted.</string>
   <string id="16780312">seeds</string>
   <string id="16780313">sapling</string>
   <string id="16780314">This plant is dead.\n\nIt looks like it did not get enough water.\n\nDo you want to clean up the plot?</string>
 
+  <string id="16780315">The soil is dry.</string>
+  <string id="16780316">The soil is moist.</string>
+  <string id="16780317">The soil is wet.</string>
+  <string id="16780318">The soil is flooded.</string>
+
   <string id="16780319">This plant is dead.\n\nIt looks like it was overwatered.\n\nDo you want to clean up the plot?</string>
+  <string id="16780320">The soil is almost dry.</string>
+  <string id="16780321">The soil is almost flooded.</string>
   <string id="16780322">This plant is dead.\n\nIt looks like it was fully grown,\nbut never picked.\n\nDo you want to clean up the plot?</string>
   <string id="16780323">A {STRING_240268} is needed to plant seeds.</string>
+  <string id="16780324">The {00} plant has started to grow taller.</string>
+  <string id="16780325">The {00} plant is growing {01}.</string>
+  <string id="16780326">It's soft fertile soil.\n\nWould you like to plant seeds?</string>
+  <string id="16780327">Would you like to water the {00}?</string>
+  <string id="16780328">{00} watered the {01}.</string>
+  <string id="16780329">There are {01} {00}!\n\nWould you like to pick the {00}?</string>
   <string id="16780330">You did not pick the {00}.</string>
-  
+  <string id="16780331">{00} picked {01} {02}.</string>
 
- 
+  <string id="16780335">The soil is now dry.</string>
+  <string id="16780336">The soil is now almost dry.</string>
+  <string id="16780337">The soil is now moist.</string>
+  <string id="16780338">The soil is now wet.</string>
+  <string id="16780339">The soil is now almost flooded.</string>
+  <string id="16780340">The soil is now flooded.</string>
+
   <string id="16780350">excellently</string>
   <string id="16780351">beautifully</string>
   <string id="16780352">nicely</string>
@@ -5481,6 +5569,7 @@
   <string id="17000305">It's a real match. Whoever loses has\nto walk all the way to the bottom.</string>
   <string id="17000306">Heh. Ummm...\nDo I have to keep my promise?</string>
   <string id="17000307">For some reason I'm no longer\nable to walk back down.</string>
+
   <!-- yes no prompts-->
   <string id="50">\n           Yes           \n</string>
   <string id="51">\n           No           \n</string>
@@ -5599,5 +5688,7 @@
   <string id="16780329">​</string>
   <string id="16780331">​</string>
   <string id="16780311">​</string>
+
+
 
 </strings>
